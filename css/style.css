@@ -63,11 +63,11 @@ body {
 /*------------------------------------------ REACT PLANETS ---------------------------------------*/
 
 #react {
-    margin: -50px;
-    width: 100px;
+    margin: -55px;
+    width: 110px;
     position: absolute;
-    height: 100px;
-    top: 60%;
+    height: 110px;
+    top: 55%;
     background-color: #00eeff;
     box-shadow: 0 0 22px #00eeff;
     border-radius: 50%;
@@ -134,7 +134,7 @@ body {
     transform: rotateZ(13deg);
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 50%;
     transform-style: preserve-3d;}
 
 #jsPlanetWrapper {
@@ -155,11 +155,11 @@ body {
     border-radius: 50%;}
 
 #htmlPlanet.orbit, #cssPlanet.orbit,  #jsPlanet.orbit {
-    width: 450px;
-    height: 450px;
-    margin: -225px;
+    width: 500px;
+    height: 500px;
+    margin: -250px;
     left: 50%;
-    top: 60%}
+    top: 55%}
 
 #htmlPlanet .pos {
     left: 50%;
@@ -185,7 +185,7 @@ body {
     left: 50%;
     top: -1px;}
 
-.orbit{box-shadow: 9px 9px 10px #55d1f8;}
+.orbit{box-shadow: 10px 10px 10px #55d1f8;}
 
 #htmlPlanet.orbit,  #htmlPlanet .pos {
     animation-duration: 5.3s;}
