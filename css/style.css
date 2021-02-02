@@ -285,7 +285,19 @@ body {
     top: 0;
     border-bottom: 1px solid #4a4a4a;
     background:#20232b}
- 
+
+.forkit-contacts{    
+    position: absolute;
+    left: 260px;
+    top: 50px; }
+
+.forkit-contacts a{   
+    color:  #2a2c31;
+    font-size: 40px;
+    margin-right: 15px;
+    line-height: 41px;
+transition: all 0.3s ease-in;}
+    .forkit-contacts a:hover{color: #55d1f8;}
 .forkit__close__button{
     position: absolute;
     right: 0;
@@ -307,7 +319,8 @@ body {
     width: 100%;
     border-bottom: 1px solid #4a4a4a;
     color: #b5a6a6;}
-	
+
+.forkit__row div{width: 50%}
 .forkit__row a {color: #b5a6a6; color: #55d1f8 }
 
 .forkit__title {      
@@ -392,7 +405,9 @@ body {
     .forkit-curtain{overflow-y: scroll;}
     .forkit__row{flex-wrap: wrap;}
     .forkit__title{width: 100%; width: 100%; max-width: 100%; text-align: center; border: 0;}
-   	.forkit__close{height: 100px}
+    .forkit__close{height: 100px}
+    .forkit__row div{width: 100%}
+    .forkit-contacts{display: none}
 }
 
 .planet {
